@@ -1,0 +1,36 @@
+{
+  "name": "k-utils",
+  "author": "404_k",
+  "version": "0.1.1",
+  "description": "RThe javascript library of commonly used building is easy to use Edit",
+  "main": "./Src/index.js",
+  "keywords": [
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mzkmzk/K-Utils.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzkmzk/K-Utils.git/issues"
+  },
+  "homepage": "http://k_utils.404mzk.com/",
+  "scripts": {
+    "build": "NODE_ENV=release babel ./Src --out-dir ./Publish"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "babel-core": "6.9.1",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.14.0",
+    "babel-preset-es2016": "6.11.3",
+    "babel-preset-es2017": "6.14.0",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "eslint": "^3.10.2",
+    "glob": "^7.1.1",
+    "webpack": "^1.13.3"
+  }
+}
